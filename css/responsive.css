@@ -1,0 +1,88 @@
+@media (max-width: 900px){
+    section{
+        padding: 7rem 6% 4rem;
+    }
+
+    .corps,
+    .contact{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .propos,
+    .contact-form{
+        max-width: 100%;
+    }
+
+    .about-details{
+        text-align: left;
+    }
+
+    .skills-list{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 640px){
+    header{
+        top: 0.5rem;
+        padding: 0 0.7rem;
+    }
+
+    .nav-bar{
+        width: 100%;
+        min-height: auto;
+        padding: 0.55rem;
+        gap: 0.4rem;
+        flex-wrap: wrap;
+        border-radius: 1.2rem;
+    }
+
+    .nav-bar a{
+        font-size: 0.7rem;
+        padding: 0.3rem 0.45rem;
+    }
+
+    section{
+        min-height: auto;
+        padding: 7rem 5% 3rem;
+    }
+
+    h1{
+        font-size: 1.75rem;
+    }
+
+    h2{
+        font-size: 1.6rem;
+    }
+
+    p,
+    #sous-titre{
+        font-size: 0.95rem;
+    }
+
+    #sopng{
+        width: 220px;
+    }
+
+    .skill-card{
+        width: 100%;
+        max-width: 260px;
+        min-height: 190px;
+    }
+
+    .buttons{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 380px){
+    .nav-bar a{
+        font-size: 0.62rem;
+    }
+
+    h1{
+        font-size: 1.45rem;
+    }
+}

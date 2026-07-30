@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Portfolio - Wella Soniah</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="corps">
+                <div class="propos">
+                    <p class="intro">Portfolio personnel</p>
+                    <h1>Robotics <span id="hecol"></span></h1>
+                    <p>
+                        Informaticienne spécialisée en robotique, dédiée à la conception et au développement
+                        d'architectures logicielles permettant aux machines d'interagir de manière autonome
+                        avec leur environnement.
+                    </p>
+                    <span class="nom">WELLA Soniah Mon-Désir</span>
+                </div>
+
+                <div class="photo">
+                    <img src="asset/image/soniah.png" id="sopng" alt="Portrait de Wella Soniah">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="legende">
+                <h2>À propos de <span>Moi</span></h2>
+                <p id="sous-titre">
+                    Informaticienne spécialisée en robotique, je conçois et développe des systèmes autonomes qui
+                    allient perception, décision et action. Mon parcours m'a permis d'acquérir une solide expertise
+                    en programmation <span>(C++, Python, ROS)</span>, en vision par ordinateur, en planification de
+                    trajectoires et en contrôle de robots. Je suis motivée par les défis techniques situés entre le
+                    logiciel et le matériel, avec l'objectif de créer des solutions robustes, efficaces et adaptées
+                    au monde réel.
+                </p>
+
+                <div class="about-details">
+                    <p><strong>Profil :</strong> développement logiciel, robotique et systèmes autonomes.</p>
+                    <p><strong>Objectif :</strong> construire des solutions utiles, propres et faciles à maintenir.</p>
+                    <p><strong>Qualités :</strong> curiosité, rigueur, adaptation et esprit d'analyse.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="skills-content">
+                <p id="gras">Les langages maîtrisés :</p>
+
+                <div class="skills-list">
+                    <div class="Myicon skill-card">
+                        <img src="asset/icons/HTML5.png" alt="Logo HTML5" class="icon">
+                        <p>HTML5</p>
+                        <div class="corps-ligne"><div class="ligne1"></div></div>
+                        <span>100%</span>
+                    </div>
+
+                    <div class="Myicon skill-card">
+                        <img src="asset/icons/C.png" alt="Logo langage C" class="icon">
+                        <p>Langage C</p>
+                        <div class="corps-ligne"><div class="ligne2"></div></div>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="Myicon skill-card">
+                        <img src="asset/icons/CSS3.png" alt="Logo CSS3" class="icon">
+                        <p>CSS3</p>
+                        <div class="corps-ligne"><div class="ligne3"></div></div>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="Myicon skill-card">
+                        <img src="asset/icons/JavaScript.png" alt="Logo JavaScript" class="icon">
+                        <p>JavaScript</p>
+                        <div class="corps-ligne"><div class="ligne4"></div></div>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="Myicon skill-card">
+                        <img src="asset/icons/Windows 11.png" alt="Logo Windows 11" class="icon">
+                        <p>Windows 11</p>
+                        <div class="corps-ligne"><div class="ligne5"></div></div>
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact">
+                <div class="contact-info">
+                    <span>Contactez-moi :</span>
+                    <p>wellasoniah@gmail.com</p>
+                    <p id="num">Contact : 038 14 512 28</p>
+                </div>
+
+                <form class="contact-form">
+                    <div class="gauche">
+                        <label for="email">Votre email :</label>
+                        <input type="email" id="email" placeholder="exemple@mail.com">
+                    </div>
+
+                    <div class="droite">
+                        <label for="text">Message :</label>
+                        <textarea id="text" placeholder="Écrivez votre message"></textarea>
+                    </div>
+
+                    <div class="buttons">
+                        <input type="submit" value="Send" id="submit">
+                        <input type="reset" id="reset">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
